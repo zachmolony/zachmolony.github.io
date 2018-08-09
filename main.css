@@ -42,13 +42,15 @@ h5 {
 }
 
 p {
-    color: darkgrey;
+    color: #696969;
     font-weight: 100;
     margin-top: 10px;
     font-size: 20px;
 }
 
-
+a {
+    text-decoration: none;
+}
 /* contact buttons */
 
 .contact {
@@ -101,11 +103,45 @@ ul {
 }
 
 
+/* python */
 
+.python {
+    text-align: center;
+    margin-bottom: 20em;
+}
 
+.python p {
+    margin-bottom: 30px;
+}
 
+.python img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40px;
+    margin: 0 15px;
+}
 
+.py_container {
+    display: flex;
+}
 
+.repo {
+    margin: 30px;
+}
+
+.button_container {
+    padding: 2px 16px
+}
+
+.button {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2);
+}
 
 
 

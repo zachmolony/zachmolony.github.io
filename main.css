@@ -170,7 +170,7 @@ ul {
 .wabiyo > .wab_img {
     width: 85%;
     float: right;
-    box-shadow: 0 122222px 70px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 12px 70px 0 rgba(0,0,0,.3);
 }
 
 .wabiyo ul {
@@ -183,3 +183,27 @@ ul {
     margin-top: 20px;
 }
 
+.desc {
+    margin: ;
+}
+
+
+/* footer */
+
+.footer {
+    padding-bottom: 7em;
+    text-align: center;
+}
+
+.footer a {
+    color: #414141;
+    text-decoration: none;
+}
+
+.footer_underline {
+    display: block;
+    height: 3px;
+    width: 41px;
+    margin: 5px auto 0 auto;
+    background-color: lightgray;
+}

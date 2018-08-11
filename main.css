@@ -174,19 +174,13 @@ ul {
 }
 
 .container {
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
+    float: right;
 }
 
-.wabiyo > .desk_img {
-    width: 100%;
-    height: 100%;
-    /*box-shadow: 0 12px 70px 0 rgba(0,0,0,.3);*/
-}
-
-.wabiyo > .mob_img {
-    width: 20%;
-    float: right
-    /*box-shadow: 0 12px 70px 0 rgba(0,0,0,.3);*/
+.desk_img {
+    padding-right: 30px;
 }
 
 .wabiyo ul {
@@ -209,6 +203,30 @@ ul {
     padding: 0.5em;
 }
 
+/* other projects */
+
+.proj_container {
+    display: flex;
+    align-content: center;
+}
+
+.project {
+    text-align: center;
+    margin-bottom: 20em;
+}
+
+.project p {
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.project img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40px;
+    margin: 0 15px;
+}
+
 /* footer */
 
 .footer {
@@ -227,4 +245,7 @@ ul {
     width: 41px;
     margin: 5px auto 0 auto;
     background-color: lightgray;
+}
+.projects {
+    text-align: center;
 }

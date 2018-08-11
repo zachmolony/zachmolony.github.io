@@ -220,16 +220,16 @@ ul {
     text-align: left;
 }
 
-/* CODE.GAME */ 
+/* experience */ 
 
-.codegame {
+.experience {
     width: 100%;
     position: relative;
     margin-bottom: 20em;
     display: table;
 }
 
-.codegame > .codegame_text > .underline {
+.experience > .experience_text > .underline {
     display: block;
     background-color: #027bff;
     height: 3px;
@@ -237,7 +237,7 @@ ul {
     margin-top: 5px;
 }
 
-.codegame_text img {
+.experience_text img {
     position: absolute;
     right: 0;
     top: 0;
@@ -248,20 +248,6 @@ ul {
 
 .desk_img {
     padding-right: 30px;
-}
-
-.codegame ul {
-    position: absolute;
-    top: 60px;
-}
-
-.codegame ul li {
-    margin-top: 20px;
-}
-
-.codegame ul img {
-    width: 15%;
-    height: auto;
 }
 
 /* other projects */

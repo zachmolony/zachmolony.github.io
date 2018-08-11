@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script type="text/javascript" src='js/main.js'></script>
+
 </head>
 
 <body>
@@ -21,7 +24,38 @@
         </div>
     </div>
 
+    <!--    nav bar    -->
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-4">
 
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Python</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    
+    <header>
+        <div class="overlay"></div>
+    </header>
 
     <!--    info section   -->
     <div class="info">
@@ -63,29 +97,30 @@
             <img src="assets/python.png" alt="pyimg" width=50>
         </div>
         <p>I've been programming in python for over three years, and I love using python to solve problems in code.</p>
-        <p>Throughout learning python, I've collated all my knowledge in workbooks in jupyter notebooks, which can aid as cheat sheets to those currently learning python. </p><p>I've also solved a multitude of problems in python, procedural and mathematical, from a variety of sources.</p>
+        <p>Throughout learning python, I've collated all my knowledge in workbooks in jupyter notebooks, which can aid as cheat sheets to those currently learning python. </p>
+        <p>I've also solved a multitude of problems in python, procedural and mathematical, from a variety of sources.</p>
         <div class="py_container">
 
             <div class="repo">
-              <div class="py_button">
-                   <img src="assets/jupyter.svg" alt="jupyter" width="100px">
-                   <p>See the workbooks I've created on the python language</p>
-                   <a href="https://github.com/zachmolony/pythonWorkbooks">
-                       <p><strong><img src="assets/github.png" width=20 class="gitimg">View repo</strong></p>
+                <div class="py_button">
+                    <img src="assets/jupyter.svg" alt="jupyter" width="100px">
+                    <p>See the workbooks I've created on the python language</p>
+                    <a href="https://github.com/zachmolony/pythonWorkbooks">
+                        <p><strong><img src="assets/github.png" width=20 class="gitimg">View repo</strong></p>
                     </a>
                 </div>
             </div>
-            
+
             <div class="repo">
-              <div class="py_button">
-                   <img src="assets/code.png" alt="code" width="100px">
-                   <p>See a collection of some of the problems I've solved using python</p>
-                   <a href="https://github.com/zachmolony/programmingChallenges">
-                       <p><strong><img src="assets/github.png" width=20 class="gitimg">View repo</strong></p>
+                <div class="py_button">
+                    <img src="assets/code.png" alt="code" width="100px">
+                    <p>See a collection of some of the problems I've solved using python</p>
+                    <a href="https://github.com/zachmolony/programmingChallenges">
+                        <p><strong><img src="assets/github.png" width=20 class="gitimg">View repo</strong></p>
                     </a>
                 </div>
             </div>
-            
+
         </div>
 
     </div>
@@ -113,7 +148,7 @@
         </div>
 
         <div class="desc">
-           <h4>Context</h4>
+            <h4>Context</h4>
             <p>Wabiyo.com is a site I built completely from scratch, as a digital platform for creative collective and clothing company wabiyo, of which I am a co-founder. All source code is on Github and hosted with Github Pages.</p>
             <h4>Desktop JS Game</h4>
             <p>Unlike a normal store, the store is a dungeon platformer game, coded in javascript using the p5 module, where the player/customer can play through the short game to find the item they want and check out.</p>
@@ -121,8 +156,8 @@
             <p>The mobile version of the store uses a simple design, but the background of the store is a Virtual Reality scene of a "psychedelic space", programmed using the A-FRAME framework. Try it yourself at wabiyo.com.</p>
         </div>
     </div>
-    
-    
+
+
     <!--    other projects   -->
     <div class="projects clearfix">
         <div class="wab_text">
@@ -135,9 +170,9 @@
                 <h3><strong>Portfolio Website</strong></h3>
                 <p>Source code to the website you're looking at right now</p>
                 <a href="https://github.com/zachmolony/zachmolony.github.io">
-                <div class="button">
-                    <p><strong><img src="assets/github.png" width=20>View repo</strong></p>
-                </div>
+                    <div class="button">
+                        <p><strong><img src="assets/github.png" width=20>View repo</strong></p>
+                    </div>
                 </a>
             </div>
             <div class="proj">
@@ -145,9 +180,9 @@
                 <h3><strong>Blackboard</strong></h3>
                 <p>Shared shopping list application built with Apache Cordova</p>
                 <a href="https://github.com/zachmolony/blackboard">
-                <div class="button">
-                    <p><strong><img src="assets/github.png" width=20>View repo</strong></p>
-                </div>
+                    <div class="button">
+                        <p><strong><img src="assets/github.png" width=20>View repo</strong></p>
+                    </div>
                 </a>
             </div>
             <div class="proj">
@@ -155,20 +190,20 @@
                 <h3><strong>Floppy Jump</strong></h3>
                 <p>A 3 player p5.js game about floppy disks.</p>
                 <a href="https://github.com/zachmolony/floppy-jump">
-                <div class="button">
-                    <p><strong><img src="assets/github.png" width=20>View repo</strong></p>
-                </div>
+                    <div class="button">
+                        <p><strong><img src="assets/github.png" width=20>View repo</strong></p>
+                    </div>
                 </a>
             </div>
-            
+
         </div>
     </div>
-    
-    
-    
+
+
+
     <!--    experience section    -->
     <div class="experience clearfix">
-        <div class="experience_text">    
+        <div class="experience_text">
             <h1>Other Experiences in tech</h1>
             <a href="#">
                 <h5>Mentoring</h5>
@@ -187,7 +222,7 @@
 
 
 
-    
+
 
 
 

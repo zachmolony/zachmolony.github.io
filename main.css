@@ -35,6 +35,12 @@ h2 {
     color: black;
 }
 
+h3 {
+    font-size: 20px;
+    font-weight: 200;
+    color: #383838;
+}
+
 h4 {
     font-size: 17px;
     font-weight: 600;
@@ -105,8 +111,9 @@ ul {
 }
 
 .scroll {
-    display: table;
+    display: inline-block;
     margin-top: 10em;
+    margin-left: 50%;
 }
 
 .res_img {
@@ -201,7 +208,52 @@ ul {
     margin-top: 20px;
 }
 
-.wabiyo ul img {
+.desc {
+    clear: both;
+    text-align: center;
+    padding: 0.5em;
+}
+
+.desc h4 {
+    padding-top: 5px;
+    text-align: left;
+}
+
+/* CODE.GAME */ 
+
+.codegame {
+    width: 100%;
+    position: relative;
+    margin-bottom: 20em;
+    display: table;
+}
+
+.codegame > .codegame_text > .underline {
+    display: block;
+    background-color: #027bff;
+    height: 3px;
+    width: 61px;
+    margin-top: 5px;
+}
+
+.mentor_img {
+    float: right;
+}
+
+.desk_img {
+    padding-right: 30px;
+}
+
+.codegame ul {
+    position: absolute;
+    top: 60px;
+}
+
+.codegame ul li {
+    margin-top: 20px;
+}
+
+.codegame ul img {
     width: 15%;
     height: auto;
 }
@@ -232,7 +284,8 @@ ul {
 .projects img {
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 40px;
+    height: 120px;
+    width: auto;
     margin: 0 15px;
 }
 
@@ -240,12 +293,14 @@ ul {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    clear: both;
 }
 
 .proj {
     margin: 30px;
     flex: 1;
 }
+
 
 .button {
     box-shadow: 0 4px 8px 3px rgba(0,0,0,0.2);
@@ -257,6 +312,7 @@ ul {
     padding: 0;
     margin-top: 5px;
     width: 25px;
+    height: auto;
 }
 
 .button p {

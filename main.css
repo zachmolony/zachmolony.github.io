@@ -35,6 +35,12 @@ h2 {
     color: black;
 }
 
+h4 {
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+}
+
 h5 {
     font-size: 15px;
     font-weight: 400;
@@ -42,7 +48,7 @@ h5 {
 }
 
 p {
-    color: #696969;
+    color: #414141;
     font-weight: 100;
     margin-top: 10px;
     font-size: 20px;
@@ -188,7 +194,7 @@ ul {
 
 .wabiyo ul {
     position: absolute;
-    top: auto;
+    top: 60px;
 }
 
 .wabiyo ul li {
@@ -204,6 +210,11 @@ ul {
     clear: both;
     text-align: center;
     padding: 0.5em;
+}
+
+.desc h4 {
+    padding-top: 5px;
+    text-align: left;
 }
 
 /* other projects */

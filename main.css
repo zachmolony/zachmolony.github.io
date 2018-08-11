@@ -205,26 +205,32 @@ ul {
 
 /* other projects */
 
-.proj_container {
-    display: flex;
-    align-content: center;
-}
-
-.project {
+.projects {
     text-align: center;
     margin-bottom: 20em;
 }
 
-.project p {
+.projects p {
     margin-bottom: 30px;
     padding: 5px;
 }
 
-.project img {
+.projects img {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 40px;
     margin: 0 15px;
+}
+
+.proj_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.proj {
+    margin: 30px;
 }
 
 /* footer */

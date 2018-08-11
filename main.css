@@ -236,6 +236,11 @@ ul {
     margin-top: 5px;
 }
 
+.codegame_text img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 .mentor_img {
     float: right;
 }

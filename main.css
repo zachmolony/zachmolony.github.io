@@ -45,7 +45,7 @@ p {
     color: #696969;
     font-weight: 100;
     margin-top: 10px;
-    font-size: 10vw;
+    font-size: 20px;
 }
 
 a {
@@ -173,9 +173,19 @@ ul {
     margin-top: 5px;
 }
 
-.wabiyo > .wab_img {
-    width: 85%;
-    float: right;
+.container {
+    display: inline-flex;
+}
+
+.wabiyo > .desk_img {
+    width: 100%;
+    height: 100%;
+    /*box-shadow: 0 12px 70px 0 rgba(0,0,0,.3);*/
+}
+
+.wabiyo > .mob_img {
+    width: 20%;
+    float: right
     /*box-shadow: 0 12px 70px 0 rgba(0,0,0,.3);*/
 }
 

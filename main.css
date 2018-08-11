@@ -116,7 +116,6 @@ ul {
 }
 
 .python p {
-    margin-bottom: 30px;
     padding: 5px;
 }
 
@@ -226,11 +225,11 @@ ul {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .proj {
     margin: 30px;
+    flex: 1;
 }
 
 /* footer */

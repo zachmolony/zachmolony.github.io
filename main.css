@@ -59,10 +59,13 @@ a {
     text-decoration: none;
 }
 
+
+
+
 /* nav bar */
 
 .navbar {
-    background: #8d8d8d;
+    background: #48717e;
 }
 
 .nav-link,
@@ -92,6 +95,9 @@ a {
     justify-content: flex-end;
 }
 
+
+
+
 /* header */
 
 .header {
@@ -109,6 +115,9 @@ a {
     top: 0;
     background: rgba(0, 0, 0, 0.7);
 }
+
+
+
 
 /* info */
 
@@ -153,8 +162,8 @@ ul {
 }
 
 .info button {
-    border: 1px solid #8d8d8d;
-    background: #8d8d8d;
+    border: 1px solid #48717e;
+    background: #48717e;
     color: #fff;
 }
 
@@ -163,10 +172,17 @@ ul {
     height: auto;
 }
 
+
+
+
 /* python */
 
+.py_scroll {
+    margin: 20em;
+}
+
 .python {
-    margin-top: 20em;
+    padding-top: 8em;
     text-align: center;
     margin-bottom: 20em;
 }
@@ -186,12 +202,12 @@ ul {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex: 1;
 }
 
 .repo {
     padding-top: 30px;
     align-content: space-between;
-    margin: 30px;
     width: 20vw;
     margin: auto;
 }
@@ -216,3 +232,29 @@ ul {
 }
 
 
+
+
+/* experiences */
+
+.blog {
+    padding-top: 8em;
+    margin: 4em 0;
+    position: relative;
+}
+
+.blog h1 {
+    margin: 2em;
+}
+
+.blog .card {
+    box-shadow: 0 0 20px #ccc;
+}
+
+.blog .card img {
+    width: 100%;
+    height: 12em;
+}
+
+.blog .card-body {
+    padding: 1em;
+}

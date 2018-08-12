@@ -297,6 +297,8 @@ ul {
 
 
 
+
+
 /* experiences */
 
 .blog {
@@ -322,7 +324,9 @@ ul {
     padding: 1em;
 }
 
-
+.row {
+    padding-bottom: 3em;
+}
 
 
 /* footer */

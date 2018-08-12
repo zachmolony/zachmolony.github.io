@@ -4,8 +4,8 @@ $(document).ready(function(){
 
 $(".navbar a").click(function(){
   $("body,html").animate({
-   scrollTop:$("#" + $(this).data('value')).offset().top - 100
-  },1000)
+   scrollTop:$("#" + $(this).data('value')).offset().top - 60
+  },750)
   
  })
 

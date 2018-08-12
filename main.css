@@ -65,7 +65,8 @@ a {
     background: #ba00ff;
 }
 
-.nav-link, .navbar-brand {
+.nav-link,
+.navbar-brand {
     color: #f4f4f4;
     cursor: pointer;
 }
@@ -106,14 +107,29 @@ a {
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(244, 244, 244, 0.5);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 /* info */
 
 .info {
+    top: 30%;
+    margin: auto;
+    padding: 2em;
     height: 100vh;
     position: relative;
+}
+
+.info h1 {
+    color: white;
+}
+
+.info p {
+    color: floralwhite;
+    font-size: 20px;
+    font-weight: 400;
+    width: 50%;
+    line-height: 1.5;
 }
 
 .info_wrapper {
@@ -136,13 +152,67 @@ ul {
     margin-top: 30px;
 }
 
-.scroll {
-    display: inline-block;
-    margin-top: 10em;
-    margin-left: 50%;
+.info button {
+    border: 1px solid #ba00ff;
+    background: #ba00ff;
+    color: #fff;
 }
 
 .res_img {
     width: 100%;
     height: auto;
 }
+
+/* python */
+
+.python {
+    margin-top: 20em;
+    text-align: center;
+    margin-bottom: 20em;
+}
+
+.python p {
+    padding: 5px;
+}
+
+.py_img {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 50;
+    margin: 0 15px;
+}
+
+.py_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.repo {
+    padding-top: 30px;
+    align-content: space-between;
+    margin: 30px;
+    width: 20vw;
+    margin: auto;
+}
+
+.py_button {
+    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.py_button img {
+    padding: 0;
+    margin-top: 5px;
+}
+
+.py_button:hover {
+    box-shadow: 0 12px 16px 6px rgba(0, 0, 0, 0.2);
+}
+
+.gitimg {
+    padding-right: 20px;
+}
+
+

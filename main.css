@@ -183,7 +183,7 @@ ul {
 /* python */
 
 .python {
-    padding-top: 15em;
+    padding-top: 10em;
     text-align: center;
     margin-bottom: 20em;
 }
@@ -240,7 +240,7 @@ ul {
 .wabiyo {
     width: 70%;
     position: relative;
-    padding-top: 20em;
+    padding-top: 6em;
     margin-bottom: 20em;
     display: table;
     margin: auto;
@@ -258,7 +258,7 @@ ul {
     display: flex;
     justify-content: space-between;
     float: right;
-    padding-top: 0em;
+    padding-top: 2em;
 }
 
 .desk_img {
@@ -269,14 +269,13 @@ ul {
 .wabiyo ul {
     position: absolute;
     display: flex; 
-    top: 0;
+    margin-top: -3em;
     right: 0;
     justify-content: space-between;
 }
 
 .wabiyo ul li {
     margin-right: 20px;
-    
 }
 
 .waby_desc {
@@ -297,9 +296,13 @@ ul {
 /* other projects */
 
 .projects {
-    margin-top: 20em;
     text-align: center;
+    margin-top: 20em;
     margin-bottom: 20em;
+}
+
+.projects h1 {
+    margin-top: 20px;
 }
 
 .projects p {

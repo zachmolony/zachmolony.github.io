@@ -8,3 +8,10 @@ $(".navbar a").click(function(){
   },1000)
   
  })
+
+$(".info button").click(function(){
+  $("body,html").animate({
+   scrollTop:$("#" + $(this).data('value')).offset().top
+  },750)
+  
+ })

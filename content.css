@@ -1,3 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    width: 60%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 400;
+    color: black;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 200;
+    color: #383838;
+}
+
+h4 {
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+}
+
+h5 {
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+
+p {
+    color: #414141;
+    font-weight: 100;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
 
 /* contact buttons */
 

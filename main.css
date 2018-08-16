@@ -298,6 +298,7 @@ ul {
 
 .projects {
     text-align: center;
+    padding-top: 10em;
     margin-top: 20em;
     margin-bottom: 20em;
 }
@@ -320,7 +321,7 @@ ul {
 }
 
 .proj_container {
-    width: 60%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     clear: both;

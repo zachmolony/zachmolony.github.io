@@ -200,7 +200,8 @@ ul {
 }
 
 .py_container {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     flex: 1;

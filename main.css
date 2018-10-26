@@ -241,8 +241,7 @@ ul {
 .wabiyo {
     width: 70%;
     position: relative;
-    padding-top: 6em;
-    margin-bottom: 20em;
+    padding-bottom: 20em;
     display: table;
     margin: auto;
 }
@@ -257,9 +256,12 @@ ul {
 
 .wab_container {
     display: flex;
-    justify-content: space-between;
     float: right;
     padding-top: 2em;
+}
+
+.wab_container > img {
+    height: 46vh;
 }
 
 .desk_img {
@@ -294,12 +296,76 @@ ul {
 
 
 
+
+/* dark lab */
+
+.darklab {
+    width: 70%;
+    position: relative;
+    padding-bottom: 20em;
+    display: table;
+    margin: auto;
+}
+
+.darklab > .darklab_text > .underline {
+    display: block;
+    background-color: #027bff;
+    height: 3px;
+    width: 61px;
+    margin-top: 5px;
+}
+
+.darklab_container {
+    position: relative;
+    display: flex;
+    padding-top: 2em;
+}
+
+.darklab_mobile {
+    float: left;
+    height: 61vh;
+}
+
+.darklab_desktop {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 34vh;
+}
+
+.darklab ul {
+    position: absolute;
+    display: flex; 
+    margin-top: -3em;
+    right: 0;
+    justify-content: space-between;
+}
+
+.darklab ul li {
+    margin-right: 20px;
+}
+
+.darklab_desc {
+    clear: both;
+    text-align: left;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+}
+
+.darklab_desc h4 {
+    padding-top: 5px;
+    text-align: left;
+}
+
+
+
+
 /* other projects */
 
 .projects {
     text-align: center;
     padding-top: 10em;
-    margin-top: 20em;
     margin-bottom: 20em;
 }
 

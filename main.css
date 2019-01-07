@@ -52,11 +52,20 @@ p {
     color: #414141;
     font-weight: 100;
     margin-top: 10px;
-    font-size: 20px;
 }
 
 a {
     text-decoration: none;
+}
+
+
+/* max font size */
+
+@media screen and (min-width: 560px) {
+
+    p {
+        font-size: 18px;
+    }
 }
 
 
@@ -137,12 +146,18 @@ a {
     color: white;
 }
 
-.info p {
+.info p {    
     color: floralwhite;
-    font-size: 20px;
     font-weight: 400;
     width: 50%;
     line-height: 1.5;
+    font-size: 2vw;
+}
+
+@media screen and (min-width: 560px) {
+    .info p {
+        font-size: 20px;
+    }
 }
 
 .info_wrapper {
@@ -163,6 +178,10 @@ ul {
 
 .headshot {
     margin-top: 5em;
+}
+
+.headshot img {
+    width: 19vw;
 }
 
 .info button {
@@ -240,7 +259,7 @@ ul {
 
 .wabiyo {
     width: 70%;
-    position: relative;
+    position:  ;
     padding-bottom: 20em;
     display: table;
     margin: auto;
@@ -335,7 +354,7 @@ ul {
 
 .darklab ul {
     position: absolute;
-    display: flex; 
+    display: flex;
     margin-top: -3em;
     right: 0;
     justify-content: space-between;
@@ -490,4 +509,9 @@ ul {
 
 .xoimg {
     height: 90%;
+}
+
+.img-fluid2 {
+    height: auto;
+    max-width: 100%;
 }

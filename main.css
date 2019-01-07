@@ -280,7 +280,8 @@ ul {
 }
 
 .wab_container > img {
-    height: 46vh;
+    height: 26vw;
+    padding-bottom: 20px;
 }
 
 .desk_img {
@@ -290,7 +291,7 @@ ul {
 
 .wabiyo ul {
     position: absolute;
-    display: flex; 
+    display: flex;
     margin-top: -3em;
     right: 0;
     justify-content: space-between;

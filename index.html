@@ -13,14 +13,14 @@
 
 </head>
 
-    <body>
+<body>
 
     <!--    nav bar    -->
     <nav class="navbar navbar-expand-lg fixed-top ">
         <a class="navbar-brand" href="#">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-     <span class="navbar-toggler-icon"></span>
-   </button>
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav mr-4">
 
@@ -31,7 +31,8 @@
                     <a class="nav-link " href="#" data-value="projects">Projects</a>
                 </li>
                 <!li class="nav-item">
-                    <!a class="nav-link " href="#" data-value="otherprojects"><!/a>
+                <!a class="nav-link " href="#" data-value="otherprojects">
+                <!/a>
                 <!/li>
                 <li class="nav-item">
                     <a class="nav-link " href="#" data-value="python">Python</a>
@@ -51,7 +52,15 @@
     </nav>
 
     <div class="header">
-        <div class="overlay">
+       <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+            <div id="particles-js"></div>
+            <script>
+                particlesJS.load('particles-js', 'assets/particles.json', function() {
+                    console.log('callback - particles.js config loaded');
+                });
+            </script>
+        <!div class="overlay">
+           
             <div class="container">
 
                 <!--    info section   -->
@@ -70,18 +79,21 @@
                                 <li>
                                     <p>Javascript</p>
                                 </li>
+                                <li>
+                                    <p>Typescript</p>
+                                </li>
                             </ul>
                             <br>
                         </div>
                         <div class="headshot">
-                            <img src="assets/headshot.png" alt="headshotimg" width="300vw" class="res_mg">
+                            <img src="assets/headshot.png" alt="headshotimg" width="250vw" class="res_mg">
                         </div>
                     </div>
                     <button class="btn btn-light" data-value="projects">Click here to see some of the projects I've been working on</button>
                 </div>
 
             </div>
-        </div>
+        <!/div>
     </div>
 
 
@@ -114,7 +126,7 @@
         </div>
     </div>
 
-        <!--    darklab project section    -->
+    <!--    darklab project section    -->
     <div class="darklab clearfix" id="projects">
         <div class="darklab_text">
             <h1>DARK LAB Studios</h1>
@@ -128,12 +140,12 @@
         <div class="darklab_container">
             <img src="assets/iphone_darklab.png" alt="mobile" class="darklab_mobile">
             <div class="darklab_desc">
-            <h4>DARK LAB</h4>
-            <p>I was hired to design and implement a website for fashion brand DARK LAB following my work on Wabiyo. The site is currently still being developed to handle clothing drops, secure payment and email sign ups. A desktop version is still in development.</p>
-            <p>In this project I taught myself to implement animations using JQuery and CSS, and to improve my markup and design skills This was an especially interesting process working for a client; creating prototypes and designs, responding to client feedback and adapting to changing requirements was something I found interesting and exciting.</p>
-            <br>
-            <p>Follow Dark-Lab on instagram: @darklabclothing</p>
-        </div>
+                <h4>DARK LAB</h4>
+                <p>I was hired to design and implement a website for fashion brand DARK LAB following my work on Wabiyo. The site is currently still being developed to handle clothing drops, secure payment and email sign ups. A desktop version is still in development.</p>
+                <p>In this project I taught myself to implement animations using JQuery and CSS, and to improve my markup and design skills This was an especially interesting process working for a client; creating prototypes and designs, responding to client feedback and adapting to changing requirements was something I found interesting and exciting.</p>
+                <br>
+                <p>Follow Dark-Lab on instagram: @darklabclothing</p>
+            </div>
         </div>
 
     </div>
@@ -187,8 +199,8 @@
             </div>
         </div>
     </div>
-    
-    
+
+
     <!--   pyhton section    -->
     <div class="python" id="python">
 

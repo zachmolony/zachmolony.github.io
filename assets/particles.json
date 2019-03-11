@@ -3,8 +3,17 @@
         "number":{
             "value":100
         },
-        "colour":{
-            "value":"#ffff"
+        "shape":{
+            "stroke":{
+                "width":0,
+                "color":"#fffff"
+            }
+        },
+        "opacity":{
+            "value":0.1
+        },
+        "size":{
+            "value":0.2
         }
     }
 }

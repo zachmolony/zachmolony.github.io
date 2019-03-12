@@ -15,3 +15,11 @@ $(".info button").click(function(){
   },750)
   
  })
+
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar");
+    var $overlay = $(".overlay");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $overlay.height());
+  });
+});

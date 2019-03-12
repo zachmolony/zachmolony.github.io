@@ -1,7 +1,7 @@
 {
     "particles":{
         "number":{
-            "value":100
+            "value":150
         },
         "shape":{
             "stroke":{
@@ -13,7 +13,7 @@
             "value":0.1
         },
         "size":{
-            "value":0.2
+            "value":5
         }
     }
 }

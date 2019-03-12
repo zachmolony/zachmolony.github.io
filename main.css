@@ -76,7 +76,8 @@ a {
 /* nav bar */
 
 .navbar {
-    background: rgba(43, 68, 93, 0);
+    background: transparent;
+
 }
 
 .nav-link,
@@ -112,12 +113,10 @@ a {
 }
 
 
-
-
 /* header */
 
 .header {
-    background-image: url("assets/header2.gif");
+    background-image: /*url("assets/header2.gif");*/ 
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -129,10 +128,13 @@ a {
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.5);
 }
 
-
+#particles-js {
+    background-color: black;
+    height: 100vh;
+}
 
 
 
@@ -187,7 +189,7 @@ ul {
 }
 
 .headshot img {
-    width: 19vw;
+    width: 12vw;
 }
 
 .info button {
@@ -320,7 +322,9 @@ ul {
     text-align: left;
 }
 
-
+.wab_ul {
+    margin-right: 10%;
+}
 
 
 
@@ -518,9 +522,4 @@ ul {
 
 .xoimg {
     height: 90%;
-}
-
-
-.wab_ul {
-    margin-right: 10%;
 }

@@ -65,7 +65,7 @@ a {
 @media screen and (min-width: 560px) {
 
     p {
-        font-size: 20px;
+        font-size: 1.8vh;
     }
 }
 
@@ -150,21 +150,21 @@ a {
 
 .info h1 {
     color: white;
-    font-size: 5vh;
-    font-weight: 550;
+    font-size: 4vh;
+    font-weight: 500;
 }
 
 .info p {    
     color: floralwhite;
-    font-weight: 400;
+    font-weight: 300;
     width: 50%;
     line-height: 1.5;
-    font-size: 2vw;
+    font-size: 1vw;
 }
 
 @media screen and (min-width: 560px) {
     .info p {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -323,7 +323,7 @@ ul {
 }
 
 .wab_ul {
-    margin-right: 10%;
+    margin-right: 13%;
 }
 
 

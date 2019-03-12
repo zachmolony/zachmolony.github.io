@@ -14,12 +14,13 @@
     display: table;
 }
 
-html {
-    font-family: 'Open Sans', sans-serif;
+html * {
+    /*font-family: 'Open Sans', sans-serif; */
+    font-family: 'Rubik', sans-serif;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 400;
     color: black;
 }
@@ -75,7 +76,7 @@ a {
 /* nav bar */
 
 .navbar {
-    background: #2B445D;
+    background: rgba(43, 68, 93, 0);
 }
 
 .nav-link,
@@ -144,6 +145,8 @@ a {
 
 .info h1 {
     color: white;
+    font-size: 5vh;
+    font-weight: 550;
 }
 
 .info p {    
@@ -514,3 +517,7 @@ ul {
     height: 90%;
 }
 
+
+.wab_ul {
+    margin-right: 10%;
+}

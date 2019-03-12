@@ -105,10 +105,10 @@ a {
     justify-content: flex-end;
 }
 
-.nav-colored { background-color:#000; }
-.nav-transparent { background-color:transparent;}
-
-
+.navbar.scrolled {
+  background-color: #000000 !important;
+  transition: background-color 00ms linear;
+}
 
 
 /* header */

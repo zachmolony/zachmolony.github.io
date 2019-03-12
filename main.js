@@ -20,6 +20,6 @@ $(function () {
   $(document).scroll(function () {
     var $nav = $(".navbar");
     var $overlay = $(".overlay");
-    $nav.toggleClass('scrolled', $(this).scrollTop() > $overlay.height());
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $overlay.height() - $nav.height());
   });
 });
